@@ -177,8 +177,7 @@ hull_mission_fnc_clientSafetyTimerLoop = {
         [player] call hull_unit_fnc_addFiredEHs;
         DEBUG("hull.mission.safetytimer","Starting safety timer loop.");
         while {!([] call hull_mission_fnc_hasSafetyTimerEnded)} do {
-            TRY_ADD_WEAPON(player,"ACE_Safe");
-            player selectWeapon "ACE_Safe";
+            sleep 0.5;
         };
         player removeEventHandler ["Fired", player getVariable "hull_eh_fired"];
         DEBUG("hull.mission.safetytimer","Safety timer has ended. Removed fired EH.");
