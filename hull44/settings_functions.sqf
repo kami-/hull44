@@ -38,6 +38,11 @@ hull_settings_fnc_setNonStandardI44Settings = {
         I44_parachute_life = 5*60;
         DEBUG("hull.settings.i44","I44 parachutes on ground is enabled.");
     };
+
+    if (["I44", "I44_Weapon_Resting"] call hull_config_fnc_getBool) then {
+        [] execVM "\x\inv44\addons\i44_module_weaponResting\scripts\monitorweapon.sqf";
+        DEBUG("hull.settings.i44","I44 weapon resting is enabled.");
+    };
 };
 
 hull_settings_fnc_setNonStandardGeneralSettings = {

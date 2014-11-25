@@ -78,6 +78,7 @@ class Hull {
 
     class I44 {
         I44_ADD_anims = 1;                              // MMG prone animations
+        I44_Weapon_Resting = 1;                         // Weapon Resting
         I44_DS_Construction = 1;                        // Construction
         I44_WND_enabled = 1;                            // Wounding - Enable Player-effects
         I44_WND_AI_disabled = 1;                        // Wounding - Disable AI-effects
