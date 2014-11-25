@@ -1,6 +1,6 @@
-#include "\x\ark\addons\hull\hull_macros.h"
+#include "\x\ark\addons\hull44\hull_macros.h"
 
-player createDiaryRecord ["Diary", ["Hull", format ["
+player createDiaryRecord ["Diary", ["Hull44", format ["
 <br/>
 Version: %1
 <br/>
@@ -9,4 +9,4 @@ Latest release: https://github.com/kami-/hull/releases/latest
 Source: https://github.com/kami-/hull
 <br/>
 Documentation: https://github.com/kami-/hull/wiki
-", HULL_VERSION]]];
+", HULL44_VERSION]]];
