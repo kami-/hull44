@@ -77,22 +77,15 @@ class Hull {
     };
 
     class I44 {
-        ace_sys_repair_default_tyres = 1;               // Enable spare tyres in vehicles
-        ace_sys_wounds_enabled = 1;                     // Enable ACE Wounds
-        ace_sys_wounds_all_medics = 1;                  // Everyone can use medkits
-        ace_sys_wounds_leftdam = 0;                     // Full heal in the field
-        ace_sys_aitalk_enabled = 1;                     // Enable AI talk
-        ace_sys_viewblock_blockgrass = 1;               // Enable AI grass viewblock
-        ace_sys_destruction_enable_cookoff = 1;         // Enable ammo cookoff
-        ace_settings_enable_vd_change = 1;              // Enable ACE view distance change
-        ace_sys_aitalk_talkforplayer = 0;               // Disable dynamic shouting and speaking for AI
-        ACE_sys_tracking_MarkersEnabled = 0;            // Disables ACE group markers
-        ACE_sys_tracking_markers_enabled_override = 1;  // Disables ACE group markers
-        ace_viewdistance_limit = 8000;                  // View distance limit
-
-        ace_sys_wounds_no_medical_gear = 1;             // Removes default ACE medical gear given at start of mission
-        ace_sys_eject_fnc_weaponCheckEnabled = 0;       // Disables weapon removal for pilots
-        ace_sys_rotoreffects_fnc_rocko_manshred = 0;    // Disables rotor damage
+        I44_ADD_anims = 1;                              // MMG prone animations
+        I44_DS_Construction = 1;                        // Construction
+        I44_WND_enabled = 1;                            // Wounding - Enable Player-effects
+        I44_WND_AI_disabled = 1;                        // Wounding - Disable AI-effects
+        I44_HS_enabled = 1;                             // Hand signals
+        I44_tankPenetration = 1;                        // Armor Penetration | Additional Effects
+        I44_boltAction = 1;                             // Bolt Action Animations
+        I44_Overpressure = 0;                           // Overpressure
+        I44_parachutes = 0;                             // Parachutes on Ground
     };
 
     class General {
