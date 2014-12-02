@@ -51,8 +51,6 @@ hull_gear_fnc_assignUnitInit = {
     _unit setVariable ["hull_gear_template", _template, true];
     removeAllWeapons _unit;
     removeBackpack _unit;
-    _unit setVariable ["ace_sys_wounds_no_medical_gear", true, false];
-    TRY_ADD_WEAPON(_unit,"ACE_Earplugs");
     DEBUG("hull.gear.assign",FMT_1("Initialized unit '%1' gear.",_unit));
 };
 
@@ -122,8 +120,7 @@ hull_gear_fnc_assignUnitTemplate = {
         ["weapons",         CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignWeapons],
         ["ruckWeapons",     CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignRuckWeapons],
         ["ruckMagazines",   CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignRuckMagazines],
-        ["items",           CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignNonRadioItems],
-        ["ifak",            CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignIFAK]
+        ["items",           CONFIG_TYPE_ARRAY,  hull_gear_fnc_assignNonRadioItems]
     ];
     [_unit, _class, _template, _assignables] call hull_gear_fnc_assignObjectTemplate;
     _unit selectWeapon primaryWeapon _unit;
@@ -156,10 +153,7 @@ hull_gear_fnc_assignRuck = {
     FUN_ARGS_2(_unit,_ruck);
 
     if (_ruck != "") then {
-        _unit addWeapon _ruck;
-        [_unit, _ruck] call ACE_fnc_PutWeaponOnBack;
-        _unit setVariable ["ACE_RuckWepContents", [], true];
-        _unit setVariable ["ACE_RuckMagContents", [], true];
+        _unit addBackpack _ruck;
         TRACE("hull.gear.assign",FMT_2("Assigned ruck '%1' to unit '%2'.",_ruck,_unit));
     };
 };
@@ -206,22 +200,18 @@ hull_gear_fnc_assignRuckWeapons = {
     FUN_ARGS_2(_unit,_ruckWeapons);
 
     {
-        [_unit, _x select 0, _x select 1] call ACE_fnc_PackWeapon;
+        _unit addBackpackCargo [_x select 0, _x select 1];
     } foreach _ruckWeapons;
     TRACE("hull.gear.assign",FMT_2("Assigned ruck weapons '%1' to unit '%2'.",_ruckWeapons,_unit));
-    _unit setVariable ["ACE_RuckWepContents", _unit getVariable ["ACE_RuckWepContents", []], true];
-    TRACE("hull.gear.assign",FMT_1("Broadcasted unit '%1' ruck weapons to all machines.",_unit));
 };
 
 hull_gear_fnc_assignRuckMagazines = {
     FUN_ARGS_2(_unit,_ruckMagazines);
 
     {
-        [_unit, _x select 0, _x select 1] call ACE_fnc_PackMagazine;
+        _unit addBackpackCargo [_x select 0, _x select 1];
     } foreach _ruckMagazines;
     TRACE("hull.gear.assign",FMT_2("Assigned ruck magazines '%1' to unit '%2'.",_ruckMagazines,_unit));
-    _unit setVariable ["ACE_RuckMagContents", _unit getVariable ["ACE_RuckMagContents", []], true];
-    TRACE("hull.gear.assign",FMT_1("Broadcasted unit '%1' ruck magazines to all machines.",_unit));
 };
 
 hull_gear_fnc_assignNonRadioItems = {
@@ -307,16 +297,6 @@ hull_gear_fnc_getRadios = {
     } foreach _items;
 
     _radios;
-};
-
-hull_gear_fnc_assignIFAK = {
-    FUN_ARGS_2(_unit,_ifak);
-
-    _unit setVariable ["ACE_IFAK_Contents", [0,0,0], true];
-    [_unit, _ifak select 0, _ifak select 1, _ifak select 2, true] call ACE_fnc_PackIFAK;
-    TRACE("hull.gear.assign",FMT_2("Assigned IFAK array '%1' to unit '%2'.",_ifak,_unit));
-    _unit setVariable ["ACE_IFAK_Contents", _unit getVariable ["ACE_IFAK_Contents", [0,0,0]], true];
-    TRACE("hull.gear.assign",FMT_1("Broadcasted unit '%1' IFAK array to all machines.",_unit));
 };
 
 hull_gear_fnc_validateTemplate = {
