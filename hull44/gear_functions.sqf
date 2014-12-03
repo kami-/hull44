@@ -199,19 +199,25 @@ hull_gear_fnc_assignVehicleWeapons = {
 hull_gear_fnc_assignRuckWeapons = {
     FUN_ARGS_2(_unit,_ruckWeapons);
 
-    {
-        _unit addBackpackCargo [_x select 0, _x select 1];
-    } foreach _ruckWeapons;
-    TRACE("hull.gear.assign",FMT_2("Assigned ruck weapons '%1' to unit '%2'.",_ruckWeapons,_unit));
+    DECLARE(_backpack) = unitBackpack _unit;
+    if (!isNull _backpack) then {
+        {
+            _backpack addWeaponCargo [_x select 0, _x select 1];
+        } foreach _ruckWeapons;
+        TRACE("hull.gear.assign",FMT_2("Assigned ruck weapons '%1' to unit '%2'.",_ruckWeapons,_unit));
+    };
 };
 
 hull_gear_fnc_assignRuckMagazines = {
     FUN_ARGS_2(_unit,_ruckMagazines);
 
-    {
-        _unit addBackpackCargo [_x select 0, _x select 1];
-    } foreach _ruckMagazines;
-    TRACE("hull.gear.assign",FMT_2("Assigned ruck magazines '%1' to unit '%2'.",_ruckMagazines,_unit));
+    DECLARE(_backpack) = unitBackpack _unit;
+    if (!isNull _backpack) then {
+        {
+            _unit addMagazineCargo [_x select 0, _x select 1];
+        } foreach _ruckMagazines;
+        TRACE("hull.gear.assign",FMT_2("Assigned ruck magazines '%1' to unit '%2'.",_ruckMagazines,_unit));
+    };
 };
 
 hull_gear_fnc_assignNonRadioItems = {
