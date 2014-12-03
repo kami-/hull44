@@ -4,9 +4,9 @@ player createDiaryRecord ["Diary", ["Hull44", format ["
 <br/>
 Version: %1
 <br/>
-Latest release: https://github.com/kami-/hull/releases/latest
+Latest release: https://github.com/kami-/hull44/releases/latest
 <br/>
-Source: https://github.com/kami-/hull
+Source: https://github.com/kami-/hull44
 <br/>
-Documentation: https://github.com/kami-/hull/wiki
+Documentation: https://github.com/kami-/hull44/wiki
 ", HULL44_VERSION]]];

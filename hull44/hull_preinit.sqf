@@ -32,8 +32,8 @@ if (hull_isEnabled) then {
     [] call hull_acre_fnc_preInit;
 } else {
     if (isClass (missionConfigFile >> "Hull_Script_Version")) then {
-        INFO("hull",FMT_1("Older script version of Hull was detected. Addonized Hull version '%1' was disabled.",HULL44_VERSION));
+        INFO("hull",FMT_1("Older script version of Hull was detected. Addonized Hull44 version '%1' was disabled.",HULL44_VERSION));
     } else {
-        INFO("hull",FMT_1("Hull version '%1' was disabled.",HULL44_VERSION));
+        INFO("hull",FMT_1("Hull44 version '%1' was disabled.",HULL44_VERSION));
     };
 };
