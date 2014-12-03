@@ -9,6 +9,9 @@ class Hull {
         #include "gear\factions.h"
 
         #include "gear\Default.h"
+        #include "gear\I44_US.h"
+        #include "gear\I44_BR.h"
+        #include "gear\I44_GER.h"
 
         unitBaseClass = "Rifleman";
         vehicleBaseClass = "Vehicle";
