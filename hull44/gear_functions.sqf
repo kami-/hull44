@@ -154,6 +154,8 @@ hull_gear_fnc_assignRuck = {
 
     if (_ruck != "") then {
         _unit addBackpack _ruck;
+        clearMagazineCargoGlobal (unitBackpack _unit);
+        clearWeaponCargoGlobal (unitBackpack _unit);
         TRACE("hull.gear.assign",FMT_2("Assigned ruck '%1' to unit '%2'.",_ruck,_unit));
     };
 };
