@@ -216,7 +216,7 @@ hull_gear_fnc_assignRuckMagazines = {
     DECLARE(_backpack) = unitBackpack _unit;
     if (!isNull _backpack) then {
         {
-            _unit addMagazineCargo [_x select 0, _x select 1];
+            _backpack addMagazineCargo [_x select 0, _x select 1];
         } foreach _ruckMagazines;
         TRACE("hull.gear.assign",FMT_2("Assigned ruck magazines '%1' to unit '%2'.",_ruckMagazines,_unit));
     };
