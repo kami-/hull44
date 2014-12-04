@@ -51,7 +51,24 @@ hull_gear_fnc_assignUnitInit = {
     _unit setVariable ["hull_gear_template", _template, true];
     removeAllWeapons _unit;
     removeBackpack _unit;
+    if (_class != "Medic") then {
+        [_unit] spawn hull_gear_fnc_removeStartingLargeMedpack;
+    };
     DEBUG("hull.gear.assign",FMT_1("Initialized unit '%1' gear.",_unit));
+};
+
+hull_gear_fnc_removeStartingLargeMedpack = {
+    FUN_ARGS_1(_unit);
+
+    DECLARE(_removed) = false;
+    waitUntil {
+        if (_unit hasWeapon "I44_MedpackLarge") then {
+            _removed = true;
+            _unit removeWeapon "I44_MedpackLarge";
+        };
+        sleep 1;
+        _removed || {time > 15};
+    };
 };
 
 hull_gear_fnc_assignVehicleInit = {
