@@ -30,7 +30,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=134;
+		items=129;
 		class Item0
 		{
 			side="CIV";
@@ -55,52 +55,6 @@ class Mission
 			};
 		};
 		class Item1
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=0;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					init="this allowDamage false;";
-					description="HC";
-				};
-			};
-		};
-		class Item2
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=0;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					init="this allowDamage false;";
-					description="HC";
-				};
-			};
-		};
-		class Item3
 		{
 			side="WEST";
 			class Vehicles
@@ -165,7 +119,7 @@ class Mission
 				};
 			};
 		};
-		class Item4
+		class Item2
 		{
 			side="WEST";
 			class Vehicles
@@ -202,7 +156,7 @@ class Mission
 				};
 			};
 		};
-		class Item5
+		class Item3
 		{
 			side="WEST";
 			class Vehicles
@@ -265,7 +219,7 @@ class Mission
 				};
 			};
 		};
-		class Item6
+		class Item4
 		{
 			side="WEST";
 			class Vehicles
@@ -328,7 +282,7 @@ class Mission
 				};
 			};
 		};
-		class Item7
+		class Item5
 		{
 			side="WEST";
 			class Vehicles
@@ -391,7 +345,7 @@ class Mission
 				};
 			};
 		};
-		class Item8
+		class Item6
 		{
 			side="WEST";
 			class Vehicles
@@ -428,7 +382,7 @@ class Mission
 				};
 			};
 		};
-		class Item9
+		class Item7
 		{
 			side="WEST";
 			class Vehicles
@@ -491,7 +445,7 @@ class Mission
 				};
 			};
 		};
-		class Item10
+		class Item8
 		{
 			side="WEST";
 			class Vehicles
@@ -554,7 +508,7 @@ class Mission
 				};
 			};
 		};
-		class Item11
+		class Item9
 		{
 			side="WEST";
 			class Vehicles
@@ -617,7 +571,7 @@ class Mission
 				};
 			};
 		};
-		class Item12
+		class Item10
 		{
 			side="WEST";
 			class Vehicles
@@ -654,7 +608,7 @@ class Mission
 				};
 			};
 		};
-		class Item13
+		class Item11
 		{
 			side="WEST";
 			class Vehicles
@@ -717,7 +671,7 @@ class Mission
 				};
 			};
 		};
-		class Item14
+		class Item12
 		{
 			side="WEST";
 			class Vehicles
@@ -780,7 +734,7 @@ class Mission
 				};
 			};
 		};
-		class Item15
+		class Item13
 		{
 			side="WEST";
 			class Vehicles
@@ -843,7 +797,7 @@ class Mission
 				};
 			};
 		};
-		class Item16
+		class Item14
 		{
 			side="WEST";
 			class Vehicles
@@ -880,7 +834,7 @@ class Mission
 				};
 			};
 		};
-		class Item17
+		class Item15
 		{
 			side="WEST";
 			class Vehicles
@@ -943,7 +897,7 @@ class Mission
 				};
 			};
 		};
-		class Item18
+		class Item16
 		{
 			side="WEST";
 			class Vehicles
@@ -1006,7 +960,7 @@ class Mission
 				};
 			};
 		};
-		class Item19
+		class Item17
 		{
 			side="WEST";
 			class Vehicles
@@ -1069,7 +1023,7 @@ class Mission
 				};
 			};
 		};
-		class Item20
+		class Item18
 		{
 			side="WEST";
 			class Vehicles
@@ -1105,7 +1059,7 @@ class Mission
 				};
 			};
 		};
-		class Item21
+		class Item19
 		{
 			side="WEST";
 			class Vehicles
@@ -1141,7 +1095,7 @@ class Mission
 				};
 			};
 		};
-		class Item22
+		class Item20
 		{
 			side="WEST";
 			class Vehicles
@@ -1177,7 +1131,7 @@ class Mission
 				};
 			};
 		};
-		class Item23
+		class Item21
 		{
 			side="WEST";
 			class Vehicles
@@ -1213,7 +1167,7 @@ class Mission
 				};
 			};
 		};
-		class Item24
+		class Item22
 		{
 			side="WEST";
 			class Vehicles
@@ -1262,7 +1216,7 @@ class Mission
 				};
 			};
 		};
-		class Item25
+		class Item23
 		{
 			side="WEST";
 			class Vehicles
@@ -1325,7 +1279,7 @@ class Mission
 				};
 			};
 		};
-		class Item26
+		class Item24
 		{
 			side="WEST";
 			class Vehicles
@@ -1374,7 +1328,7 @@ class Mission
 				};
 			};
 		};
-		class Item27
+		class Item25
 		{
 			side="WEST";
 			class Vehicles
@@ -1423,7 +1377,7 @@ class Mission
 				};
 			};
 		};
-		class Item28
+		class Item26
 		{
 			side="WEST";
 			class Vehicles
@@ -1472,7 +1426,7 @@ class Mission
 				};
 			};
 		};
-		class Item29
+		class Item27
 		{
 			side="WEST";
 			class Vehicles
@@ -1521,7 +1475,7 @@ class Mission
 				};
 			};
 		};
-		class Item30
+		class Item28
 		{
 			side="WEST";
 			class Vehicles
@@ -1570,7 +1524,7 @@ class Mission
 				};
 			};
 		};
-		class Item31
+		class Item29
 		{
 			side="WEST";
 			class Vehicles
@@ -1619,7 +1573,7 @@ class Mission
 				};
 			};
 		};
-		class Item32
+		class Item30
 		{
 			side="WEST";
 			class Vehicles
@@ -1668,7 +1622,7 @@ class Mission
 				};
 			};
 		};
-		class Item33
+		class Item31
 		{
 			side="WEST";
 			class Vehicles
@@ -1717,7 +1671,7 @@ class Mission
 				};
 			};
 		};
-		class Item34
+		class Item32
 		{
 			side="WEST";
 			class Vehicles
@@ -1766,30 +1720,7 @@ class Mission
 				};
 			};
 		};
-		class Item35
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=0;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					init="this allowDamage false;";
-					description="HC";
-				};
-			};
-		};
-		class Item36
+		class Item33
 		{
 			side="WEST";
 			class Vehicles
@@ -1854,7 +1785,7 @@ class Mission
 				};
 			};
 		};
-		class Item37
+		class Item34
 		{
 			side="WEST";
 			class Vehicles
@@ -1891,7 +1822,7 @@ class Mission
 				};
 			};
 		};
-		class Item38
+		class Item35
 		{
 			side="WEST";
 			class Vehicles
@@ -1954,7 +1885,7 @@ class Mission
 				};
 			};
 		};
-		class Item39
+		class Item36
 		{
 			side="WEST";
 			class Vehicles
@@ -2017,7 +1948,7 @@ class Mission
 				};
 			};
 		};
-		class Item40
+		class Item37
 		{
 			side="WEST";
 			class Vehicles
@@ -2080,7 +2011,7 @@ class Mission
 				};
 			};
 		};
-		class Item41
+		class Item38
 		{
 			side="WEST";
 			class Vehicles
@@ -2117,7 +2048,7 @@ class Mission
 				};
 			};
 		};
-		class Item42
+		class Item39
 		{
 			side="WEST";
 			class Vehicles
@@ -2180,7 +2111,7 @@ class Mission
 				};
 			};
 		};
-		class Item43
+		class Item40
 		{
 			side="WEST";
 			class Vehicles
@@ -2243,7 +2174,7 @@ class Mission
 				};
 			};
 		};
-		class Item44
+		class Item41
 		{
 			side="WEST";
 			class Vehicles
@@ -2306,7 +2237,7 @@ class Mission
 				};
 			};
 		};
-		class Item45
+		class Item42
 		{
 			side="WEST";
 			class Vehicles
@@ -2343,7 +2274,7 @@ class Mission
 				};
 			};
 		};
-		class Item46
+		class Item43
 		{
 			side="WEST";
 			class Vehicles
@@ -2406,7 +2337,7 @@ class Mission
 				};
 			};
 		};
-		class Item47
+		class Item44
 		{
 			side="WEST";
 			class Vehicles
@@ -2469,7 +2400,7 @@ class Mission
 				};
 			};
 		};
-		class Item48
+		class Item45
 		{
 			side="WEST";
 			class Vehicles
@@ -2532,7 +2463,7 @@ class Mission
 				};
 			};
 		};
-		class Item49
+		class Item46
 		{
 			side="WEST";
 			class Vehicles
@@ -2569,7 +2500,7 @@ class Mission
 				};
 			};
 		};
-		class Item50
+		class Item47
 		{
 			side="WEST";
 			class Vehicles
@@ -2632,7 +2563,7 @@ class Mission
 				};
 			};
 		};
-		class Item51
+		class Item48
 		{
 			side="WEST";
 			class Vehicles
@@ -2695,7 +2626,7 @@ class Mission
 				};
 			};
 		};
-		class Item52
+		class Item49
 		{
 			side="WEST";
 			class Vehicles
@@ -2758,7 +2689,7 @@ class Mission
 				};
 			};
 		};
-		class Item53
+		class Item50
 		{
 			side="WEST";
 			class Vehicles
@@ -2794,7 +2725,7 @@ class Mission
 				};
 			};
 		};
-		class Item54
+		class Item51
 		{
 			side="WEST";
 			class Vehicles
@@ -2830,7 +2761,7 @@ class Mission
 				};
 			};
 		};
-		class Item55
+		class Item52
 		{
 			side="WEST";
 			class Vehicles
@@ -2866,7 +2797,7 @@ class Mission
 				};
 			};
 		};
-		class Item56
+		class Item53
 		{
 			side="WEST";
 			class Vehicles
@@ -2902,7 +2833,7 @@ class Mission
 				};
 			};
 		};
-		class Item57
+		class Item54
 		{
 			side="WEST";
 			class Vehicles
@@ -2951,7 +2882,7 @@ class Mission
 				};
 			};
 		};
-		class Item58
+		class Item55
 		{
 			side="WEST";
 			class Vehicles
@@ -3000,7 +2931,7 @@ class Mission
 				};
 			};
 		};
-		class Item59
+		class Item56
 		{
 			side="WEST";
 			class Vehicles
@@ -3063,7 +2994,7 @@ class Mission
 				};
 			};
 		};
-		class Item60
+		class Item57
 		{
 			side="WEST";
 			class Vehicles
@@ -3112,7 +3043,7 @@ class Mission
 				};
 			};
 		};
-		class Item61
+		class Item58
 		{
 			side="WEST";
 			class Vehicles
@@ -3161,7 +3092,7 @@ class Mission
 				};
 			};
 		};
-		class Item62
+		class Item59
 		{
 			side="WEST";
 			class Vehicles
@@ -3210,7 +3141,7 @@ class Mission
 				};
 			};
 		};
-		class Item63
+		class Item60
 		{
 			side="WEST";
 			class Vehicles
@@ -3259,7 +3190,7 @@ class Mission
 				};
 			};
 		};
-		class Item64
+		class Item61
 		{
 			side="WEST";
 			class Vehicles
@@ -3308,7 +3239,7 @@ class Mission
 				};
 			};
 		};
-		class Item65
+		class Item62
 		{
 			side="WEST";
 			class Vehicles
@@ -3357,7 +3288,7 @@ class Mission
 				};
 			};
 		};
-		class Item66
+		class Item63
 		{
 			side="WEST";
 			class Vehicles
@@ -3406,7 +3337,7 @@ class Mission
 				};
 			};
 		};
-		class Item67
+		class Item64
 		{
 			side="WEST";
 			class Vehicles
@@ -3455,30 +3386,7 @@ class Mission
 				};
 			};
 		};
-		class Item68
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=0;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					init="this allowDamage false;";
-					description="HC";
-				};
-			};
-		};
-		class Item69
+		class Item65
 		{
 			side="WEST";
 			class Vehicles
@@ -3543,7 +3451,7 @@ class Mission
 				};
 			};
 		};
-		class Item70
+		class Item66
 		{
 			side="WEST";
 			class Vehicles
@@ -3580,7 +3488,7 @@ class Mission
 				};
 			};
 		};
-		class Item71
+		class Item67
 		{
 			side="WEST";
 			class Vehicles
@@ -3643,7 +3551,7 @@ class Mission
 				};
 			};
 		};
-		class Item72
+		class Item68
 		{
 			side="WEST";
 			class Vehicles
@@ -3706,7 +3614,7 @@ class Mission
 				};
 			};
 		};
-		class Item73
+		class Item69
 		{
 			side="WEST";
 			class Vehicles
@@ -3769,7 +3677,7 @@ class Mission
 				};
 			};
 		};
-		class Item74
+		class Item70
 		{
 			side="WEST";
 			class Vehicles
@@ -3806,7 +3714,7 @@ class Mission
 				};
 			};
 		};
-		class Item75
+		class Item71
 		{
 			side="WEST";
 			class Vehicles
@@ -3869,7 +3777,7 @@ class Mission
 				};
 			};
 		};
-		class Item76
+		class Item72
 		{
 			side="WEST";
 			class Vehicles
@@ -3932,7 +3840,7 @@ class Mission
 				};
 			};
 		};
-		class Item77
+		class Item73
 		{
 			side="WEST";
 			class Vehicles
@@ -3995,7 +3903,7 @@ class Mission
 				};
 			};
 		};
-		class Item78
+		class Item74
 		{
 			side="WEST";
 			class Vehicles
@@ -4032,7 +3940,7 @@ class Mission
 				};
 			};
 		};
-		class Item79
+		class Item75
 		{
 			side="WEST";
 			class Vehicles
@@ -4095,7 +4003,7 @@ class Mission
 				};
 			};
 		};
-		class Item80
+		class Item76
 		{
 			side="WEST";
 			class Vehicles
@@ -4158,7 +4066,7 @@ class Mission
 				};
 			};
 		};
-		class Item81
+		class Item77
 		{
 			side="WEST";
 			class Vehicles
@@ -4221,7 +4129,7 @@ class Mission
 				};
 			};
 		};
-		class Item82
+		class Item78
 		{
 			side="WEST";
 			class Vehicles
@@ -4258,7 +4166,7 @@ class Mission
 				};
 			};
 		};
-		class Item83
+		class Item79
 		{
 			side="WEST";
 			class Vehicles
@@ -4321,7 +4229,7 @@ class Mission
 				};
 			};
 		};
-		class Item84
+		class Item80
 		{
 			side="WEST";
 			class Vehicles
@@ -4384,7 +4292,7 @@ class Mission
 				};
 			};
 		};
-		class Item85
+		class Item81
 		{
 			side="WEST";
 			class Vehicles
@@ -4447,7 +4355,7 @@ class Mission
 				};
 			};
 		};
-		class Item86
+		class Item82
 		{
 			side="WEST";
 			class Vehicles
@@ -4483,7 +4391,7 @@ class Mission
 				};
 			};
 		};
-		class Item87
+		class Item83
 		{
 			side="WEST";
 			class Vehicles
@@ -4519,7 +4427,7 @@ class Mission
 				};
 			};
 		};
-		class Item88
+		class Item84
 		{
 			side="WEST";
 			class Vehicles
@@ -4555,7 +4463,7 @@ class Mission
 				};
 			};
 		};
-		class Item89
+		class Item85
 		{
 			side="WEST";
 			class Vehicles
@@ -4591,7 +4499,7 @@ class Mission
 				};
 			};
 		};
-		class Item90
+		class Item86
 		{
 			side="WEST";
 			class Vehicles
@@ -4640,7 +4548,7 @@ class Mission
 				};
 			};
 		};
-		class Item91
+		class Item87
 		{
 			side="WEST";
 			class Vehicles
@@ -4689,7 +4597,7 @@ class Mission
 				};
 			};
 		};
-		class Item92
+		class Item88
 		{
 			side="WEST";
 			class Vehicles
@@ -4752,7 +4660,7 @@ class Mission
 				};
 			};
 		};
-		class Item93
+		class Item89
 		{
 			side="WEST";
 			class Vehicles
@@ -4801,7 +4709,7 @@ class Mission
 				};
 			};
 		};
-		class Item94
+		class Item90
 		{
 			side="WEST";
 			class Vehicles
@@ -4850,7 +4758,7 @@ class Mission
 				};
 			};
 		};
-		class Item95
+		class Item91
 		{
 			side="WEST";
 			class Vehicles
@@ -4899,7 +4807,7 @@ class Mission
 				};
 			};
 		};
-		class Item96
+		class Item92
 		{
 			side="WEST";
 			class Vehicles
@@ -4948,7 +4856,7 @@ class Mission
 				};
 			};
 		};
-		class Item97
+		class Item93
 		{
 			side="WEST";
 			class Vehicles
@@ -4997,7 +4905,7 @@ class Mission
 				};
 			};
 		};
-		class Item98
+		class Item94
 		{
 			side="WEST";
 			class Vehicles
@@ -5046,7 +4954,7 @@ class Mission
 				};
 			};
 		};
-		class Item99
+		class Item95
 		{
 			side="WEST";
 			class Vehicles
@@ -5095,7 +5003,7 @@ class Mission
 				};
 			};
 		};
-		class Item100
+		class Item96
 		{
 			side="WEST";
 			class Vehicles
@@ -5144,30 +5052,7 @@ class Mission
 				};
 			};
 		};
-		class Item101
-		{
-			side="CIV";
-			class Vehicles
-			{
-				items=1;
-				class Item0
-				{
-					position[]={-115.7624,347.04037,2242.8489};
-					azimut=0.32468101;
-					special="NONE";
-					id=0;
-					side="CIV";
-					vehicle="Citizen1";
-					player="PLAY CDG";
-					leader=1;
-					rank="LIEUTENANT";
-					skill=0.5;
-					init="this allowDamage false;";
-					description="HC";
-				};
-			};
-		};
-		class Item102
+		class Item97
 		{
 			side="EAST";
 			class Vehicles
@@ -5232,7 +5117,7 @@ class Mission
 				};
 			};
 		};
-		class Item103
+		class Item98
 		{
 			side="EAST";
 			class Vehicles
@@ -5269,7 +5154,7 @@ class Mission
 				};
 			};
 		};
-		class Item104
+		class Item99
 		{
 			side="EAST";
 			class Vehicles
@@ -5332,7 +5217,7 @@ class Mission
 				};
 			};
 		};
-		class Item105
+		class Item100
 		{
 			side="EAST";
 			class Vehicles
@@ -5395,7 +5280,7 @@ class Mission
 				};
 			};
 		};
-		class Item106
+		class Item101
 		{
 			side="EAST";
 			class Vehicles
@@ -5458,7 +5343,7 @@ class Mission
 				};
 			};
 		};
-		class Item107
+		class Item102
 		{
 			side="EAST";
 			class Vehicles
@@ -5495,7 +5380,7 @@ class Mission
 				};
 			};
 		};
-		class Item108
+		class Item103
 		{
 			side="EAST";
 			class Vehicles
@@ -5558,7 +5443,7 @@ class Mission
 				};
 			};
 		};
-		class Item109
+		class Item104
 		{
 			side="EAST";
 			class Vehicles
@@ -5621,7 +5506,7 @@ class Mission
 				};
 			};
 		};
-		class Item110
+		class Item105
 		{
 			side="EAST";
 			class Vehicles
@@ -5684,7 +5569,7 @@ class Mission
 				};
 			};
 		};
-		class Item111
+		class Item106
 		{
 			side="EAST";
 			class Vehicles
@@ -5721,7 +5606,7 @@ class Mission
 				};
 			};
 		};
-		class Item112
+		class Item107
 		{
 			side="EAST";
 			class Vehicles
@@ -5784,7 +5669,7 @@ class Mission
 				};
 			};
 		};
-		class Item113
+		class Item108
 		{
 			side="EAST";
 			class Vehicles
@@ -5847,7 +5732,7 @@ class Mission
 				};
 			};
 		};
-		class Item114
+		class Item109
 		{
 			side="EAST";
 			class Vehicles
@@ -5910,7 +5795,7 @@ class Mission
 				};
 			};
 		};
-		class Item115
+		class Item110
 		{
 			side="EAST";
 			class Vehicles
@@ -5947,7 +5832,7 @@ class Mission
 				};
 			};
 		};
-		class Item116
+		class Item111
 		{
 			side="EAST";
 			class Vehicles
@@ -6010,7 +5895,7 @@ class Mission
 				};
 			};
 		};
-		class Item117
+		class Item112
 		{
 			side="EAST";
 			class Vehicles
@@ -6073,7 +5958,7 @@ class Mission
 				};
 			};
 		};
-		class Item118
+		class Item113
 		{
 			side="EAST";
 			class Vehicles
@@ -6136,7 +6021,7 @@ class Mission
 				};
 			};
 		};
-		class Item119
+		class Item114
 		{
 			side="EAST";
 			class Vehicles
@@ -6172,7 +6057,7 @@ class Mission
 				};
 			};
 		};
-		class Item120
+		class Item115
 		{
 			side="EAST";
 			class Vehicles
@@ -6208,7 +6093,7 @@ class Mission
 				};
 			};
 		};
-		class Item121
+		class Item116
 		{
 			side="EAST";
 			class Vehicles
@@ -6244,7 +6129,7 @@ class Mission
 				};
 			};
 		};
-		class Item122
+		class Item117
 		{
 			side="EAST";
 			class Vehicles
@@ -6280,7 +6165,7 @@ class Mission
 				};
 			};
 		};
-		class Item123
+		class Item118
 		{
 			side="EAST";
 			class Vehicles
@@ -6329,7 +6214,7 @@ class Mission
 				};
 			};
 		};
-		class Item124
+		class Item119
 		{
 			side="EAST";
 			class Vehicles
@@ -6392,7 +6277,7 @@ class Mission
 				};
 			};
 		};
-		class Item125
+		class Item120
 		{
 			side="EAST";
 			class Vehicles
@@ -6441,7 +6326,7 @@ class Mission
 				};
 			};
 		};
-		class Item126
+		class Item121
 		{
 			side="EAST";
 			class Vehicles
@@ -6490,7 +6375,7 @@ class Mission
 				};
 			};
 		};
-		class Item127
+		class Item122
 		{
 			side="EAST";
 			class Vehicles
@@ -6539,7 +6424,7 @@ class Mission
 				};
 			};
 		};
-		class Item128
+		class Item123
 		{
 			side="EAST";
 			class Vehicles
@@ -6588,7 +6473,7 @@ class Mission
 				};
 			};
 		};
-		class Item129
+		class Item124
 		{
 			side="EAST";
 			class Vehicles
@@ -6637,7 +6522,7 @@ class Mission
 				};
 			};
 		};
-		class Item130
+		class Item125
 		{
 			side="EAST";
 			class Vehicles
@@ -6686,7 +6571,7 @@ class Mission
 				};
 			};
 		};
-		class Item131
+		class Item126
 		{
 			side="EAST";
 			class Vehicles
@@ -6735,7 +6620,7 @@ class Mission
 				};
 			};
 		};
-		class Item132
+		class Item127
 		{
 			side="EAST";
 			class Vehicles
@@ -6784,7 +6669,7 @@ class Mission
 				};
 			};
 		};
-		class Item133
+		class Item128
 		{
 			side="EAST";
 			class Vehicles
