@@ -15,7 +15,7 @@ class I44_US {
             {"I44_SmokeGrenade_ANM8", 1}
         };
         items[] = {"I44_ItemBayonet", "I44_ItemShovel", "I44_MedpackSmall"};
-        ifak[] = {1, 1, 1};  
+        ifak[] = {1, 1, 1};
         code = "";
     };
 
@@ -129,7 +129,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };      
+    };
 
     // Carbine Armed FTL/Section Leader 
     class FTLC : Leader {
@@ -144,7 +144,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };  
+    };
 
     //Carbine armed rifleman
     class SAR : Rifleman {
@@ -242,7 +242,7 @@ class I44_US {
             {"I44_HandGrenade_No36M", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };   
+    };
 
     //MMG with M1919A4. You could use it in the gun group, although doubling up on BAR's is a bit more historical
     class MMGG : Rifleman {
@@ -319,10 +319,7 @@ class I44_US {
             {"I44_Rocket_60mm_M6A1_M1A1Bazooka", 3},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruckMagazines[] = {
-            {"I44_Rocket_60mm_M6A1_M1A1Bazooka", 3},
-            {"I44_32rd_9x19_Ball_MP40", 4}
-        };
+        ruck = "";
         items[] = {"ACRE_PRC343", "I44_MedpackSmall"};
     };
 
