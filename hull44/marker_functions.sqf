@@ -53,7 +53,7 @@ hull_marker_fnc_addGroupAndUnitMarker = {
         if (toLower _gearClass == "medic") exitWith {
             [_unit, "b_med", _markerText, _markerColor, ["Marker", "MedicMarker", "size"] call hull_config_fnc_getArray] call hull_marker_fnc_addUnitMarker;
         };
-        if (toLower _gearClass == "xo") exitWith {
+        if (toLower _gearClass in ["xo", "rto"]) exitWith {
             [_unit, "b_empty", _markerText, _markerColor, [1, 1]] call hull_marker_fnc_addUnitMarker;
         };
         [_unit, "b_empty", _markerText, _markerColor] call hull_marker_fnc_addGroupMarker;
