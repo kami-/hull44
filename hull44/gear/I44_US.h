@@ -15,7 +15,7 @@ class I44_US {
             {"I44_SmokeGrenade_ANM8", 1}
         };
         items[] = {"I44_ItemBayonet", "I44_ItemShovel", "I44_MedpackSmall"};
-        ifak[] = {1, 1, 1};
+        ifak[] = {1, 1, 1};  
         code = "";
     };
 
@@ -31,7 +31,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        items[] = {"ACRE_PRC343", "I44_Binocular_M3", "I44_MedpackSmall"};
+        items[] = {"I44_Binocular_M3", "I44_MedpackSmall"};
     };
 
     class Officer : Leader {
@@ -55,7 +55,6 @@ class I44_US {
             {"I44_30rd_1143x23_mix_M3Greasegun", 6},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
         };
         items[] = {"ACRE_PRC343", "I44_MedpackSmall"};
@@ -129,7 +128,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };
+    };      
 
     // Carbine Armed FTL/Section Leader 
     class FTLC : Leader {
@@ -144,7 +143,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };
+    };  
 
     //Carbine armed rifleman
     class SAR : Rifleman {
@@ -218,7 +217,7 @@ class I44_US {
     class SMG : Rifleman {
         weapons[] = {"I44_M1A1Thompson"};
         magazines[] = {
-            {"I44_30rd_1143x23_Mix_M1A1Thompson","", 9},
+            {"I44_30rd_1143x23_Mix_M1A1Thompson", 9},
             {"I44_HandGrenade_No36M", 1},
             {"I44_SmokeGrenade_ANM8", 2}
         };
@@ -227,7 +226,7 @@ class I44_US {
             {"I44_HandGrenade_No36M", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };
+    };     
 
     //Submachine gunner (M3 Grease Gun)
     class SMG2 : Rifleman {
@@ -242,19 +241,16 @@ class I44_US {
             {"I44_HandGrenade_No36M", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-    };
+    };   
 
     //MMG with M1919A4. You could use it in the gun group, although doubling up on BAR's is a bit more historical
     class MMGG : Rifleman {
         weapons[] = {"I44_M1919A4"};
         magazines[] = {
-            {"I44_50rd_762x63_Mix_M1919", 4},
+            {"I44_50rd_762x63_Mix_M1919", 6},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruckMagazines[] = {
-            {"I44_50rd_762x63_Mix_M1919", 2},
-            {"I44_HandGrenade_Mk2", 2}
-        };
+        ruckMagazines[] = {};
     };
 
     class MMGAG : Rifleman {
@@ -264,8 +260,8 @@ class I44_US {
             {"I44_SmokeGrenade_ANM8", 1}
         };
         ruckMagazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand", 4},
-            {"I44_50rd_762x63_Mix_M1919", 3}
+            {"I44_8rd_762x63_mix_M1Garand", 2},
+            {"I44_50rd_762x63_Mix_M1919", 4}
         };
         items[] = {"I44_Binocular_M3", "I44_MedpackSmall"};
     };
@@ -278,23 +274,19 @@ class I44_US {
             {"I44_SmokeGrenade_ANM8", 1}
         };
         ruck = "I44_Bag_M1919A4";
-        ruckMagazines[] = {
-        };
+        ruckMagazines[] = {};
         items[] = {"ACRE_PRC343", "I44_MedpackSmall"};
     };
 
     class HMGAG : Rifleman {
         weapons[] = {"I44_M1Garand"};
         magazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand",  8},
+            {"I44_8rd_762x63_mix_M1Garand", 8},
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
         ruck = "I44_Bag_M1919TripodM2";
-        ruckMagazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand", 4},
-            {"I44_250rd_762x63_Mix_M1919_mounted", 1}
-        };
+        ruckMagazines[] = {};
         items[] = {"ACRE_PRC343", "I44_Binocular_M3", "I44_MedpackSmall"};
     };
 
@@ -304,9 +296,7 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand", 4},
             {"I44_250rd_762x63_Mix_M1919_mounted", 3}
         };
     };
@@ -330,7 +320,6 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
             {"I44_8rd_762x63_mix_M1Garand", 1},
             {"I44_Rocket_60mm_M6A1_M1A1Bazooka", 3}
@@ -345,7 +334,6 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
             {"I44_8rd_762x63_mix_M1Garand", 1},
             {"I44_Rocket_60mm_M6A1_M1A1Bazooka", 3}
@@ -394,10 +382,9 @@ class I44_US {
     class ENG : Rifleman {
         weapons[] = {"I44_M1Garand"};
         magazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand", 6},
+            {"I44_8rd_762x63_mix_M1Garand", 8},
             {"I44_SmokeGrenade_ANM8", 1}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
             {"I44_Item_M37DemoKit", 2},
             {"I44_Mine_AT_M1", 3}
@@ -414,9 +401,8 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 1},
             {"I44_SmokeGrenade_ANM8", 2}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
-            {"I44_8rd_762x63_mix_M1Garand", 2}
+            {"I44_8rd_762x63_mix_M1Garand", 6}
         };
     };
 
@@ -429,7 +415,6 @@ class I44_US {
             {"I44_HandGrenade_Mk2", 2},
             {"I44_SmokeGrenade_ANM8", 2}
         };
-        ruck = "I44_Bag_AM1G";
         ruckMagazines[] = {
             {"I44_30rd_1143x23_mix_M1A1Thompson", 5},
             {"I44_HandGrenade_Mk2", 1},
@@ -442,12 +427,12 @@ class I44_US {
         weapons[] = {"I44_M2_flameThrower", "I44_M1911A1"};
         magazines[] = {
             {"I44_m2_flamethrower_mag", 1},
-            {"I44_7rd_1143x23_Ball_M1911", 2}
+            {"I44_7rd_1143x23_Ball_M1911", 8}
         };
         ruck = "I44_Backpack_M2flamethrower";
         ruckMagazines[] = {
         };
-        items[] = {"ACRE_PRC343", "I44_MedpackSmall"};
+        items[] = {"I44_MedpackSmall"};
     };
 
 
@@ -544,10 +529,10 @@ class I44_US {
             {"I44_15rd_762x33_Mix_M1Carbine", 10},
             {"I44_30rd_1143x23_Mix_M1A1Thompson", 10},
             {"I44_30rd_1143x23_mix_M3Greasegun", 10},
-            {"I44_20rd_762x63_Mix_M1918", 10},
+            {"I44_20rd_762x63_Mix_M1918", 8},
             {"I44_50rd_762x63_Mix_M1919", 8},
-            {"I44_HandGrenade_Mk2", 10},
-            {"I44_SmokeGrenade_ANM8", 10}
+            {"I44_HandGrenade_Mk2", 5},
+            {"I44_SmokeGrenade_ANM8", 5}
         };
     };
 };
