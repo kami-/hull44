@@ -3,7 +3,7 @@
 
 #include "\userconfig\hull\log\global.h"
 
-#define HULL44_VERSION                  "0.1.0"
+#define HULL44_VERSION                  "0.2.0"
 
 #define CONCAT_ADDON_PATH(FILE)         x\ark\addons\hull44\FILE
 #define ADDON_PATH(FILE)                #CONCAT_ADDON_PATH(FILE)
