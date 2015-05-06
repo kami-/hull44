@@ -97,4 +97,17 @@ class Hull {
         BIS_noCoreConversations = 1;                    // Disables BIS unit conversations
         enableSaving = 0;                               // Enables game saving
     };
+
+    class GarbageCollector {
+        isEnabled = 1;
+        canRemoveCorpses = 1;
+        canRemoveWrecks = 1;
+        canRemoveGroups = 1;
+        corpseLimit = 40;
+        corpseMaxTime = 600;
+        wreckLimit = 10;
+        wreckMaxTime = 600;
+        groupMaxTime = 360;
+        maxTimeModifier = 0.7;
+    };
 };
